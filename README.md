@@ -7,8 +7,11 @@
 - Responsive on Desktop/Tablet/Mobile.
 ![](https://github.com/Shanty97/The_Ben/blob/master/documentation/gifIntro.gif)
 - Filtered Search.
+![](https://github.com/Shanty97/The_Ben/blob/master/documentation/giffiltered.gif)
 - Receipt generation
+![](https://github.com/Shanty97/The_Ben/blob/master/documentation/gifrecipt.gif)
 - Card payment interface
+![](https://github.com/Shanty97/The_Ben/blob/master/documentation/gifcard.gif)
 
 ## Technologies
 
