@@ -6,11 +6,11 @@
 
 - Responsive on Desktop/Tablet/Mobile
 <img src="https://github.com/Shanty97/The_Ben/blob/master/documentation/gifIntro.gif" />
-- Responsive on Desktop/Tablet/Mobile
+- Filtered Search
 <img src="https://github.com/Shanty97/The_Ben/blob/master/documentation/giffiltered.gif" />
-- Responsive on Desktop/Tablet/Mobile
+- Receipt Generation
 <img src="https://github.com/Shanty97/The_Ben/blob/master/documentation/gifrecipt.gif" />
-- Responsive on Desktop/Tablet/Mobile
+- Card Payment Interface
 <img src="https://github.com/Shanty97/The_Ben/blob/master/documentation/gifcard.gif" />    
 
 ## Technologies
