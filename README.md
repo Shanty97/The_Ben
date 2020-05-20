@@ -5,13 +5,13 @@
 ## Features
 
 - Responsive on Desktop/Tablet/Mobile
-    <img src="https://github.com/Shanty97/The_Ben/blob/master/documentation/gifIntro.gif" />
+    <img src="https://github.com/Shanty97/The_Ben/blob/master/documentation/gifIntro.gif" align="left" />
 - Responsive on Desktop/Tablet/Mobile
-    <img src="https://github.com/Shanty97/The_Ben/blob/master/documentation/giffiltered.gif" />
+    <img src="https://github.com/Shanty97/The_Ben/blob/master/documentation/giffiltered.gif" align="left" />
 - Responsive on Desktop/Tablet/Mobile
-    <img src="https://github.com/Shanty97/The_Ben/blob/master/documentation/gifrecipt.gif" />
+    <img src="https://github.com/Shanty97/The_Ben/blob/master/documentation/gifrecipt.gif" align="left" />
 - Responsive on Desktop/Tablet/Mobile
-    <img src="https://github.com/Shanty97/The_Ben/blob/master/documentation/gifcard.gif" />    
+    <img src="https://github.com/Shanty97/The_Ben/blob/master/documentation/gifcard.gif" align="left" />    
 
 ## Technologies
 
