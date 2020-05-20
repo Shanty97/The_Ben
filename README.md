@@ -6,10 +6,13 @@
 
 - Responsive on Desktop/Tablet/Mobile
 <img src="https://github.com/Shanty97/The_Ben/blob/master/documentation/gifIntro.gif" />
+
 - Filtered Search
 <img src="https://github.com/Shanty97/The_Ben/blob/master/documentation/giffiltered.gif" />
+
 - Receipt Generation
 <img src="https://github.com/Shanty97/The_Ben/blob/master/documentation/gifrecipt.gif" />
+
 - Card Payment Interface
 <img src="https://github.com/Shanty97/The_Ben/blob/master/documentation/gifcard.gif" />    
 
