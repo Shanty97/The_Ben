@@ -1,4 +1,50 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Documentation
+
+> This is an almost real-but-fake conceptual Travel Booking website built in React. It tries to mimics a real Travel Booking website.
+
+[Documentation%201294a7aec13143faaeb2ffad00b07706/intro_gif.mp4](Documentation%201294a7aec13143faaeb2ffad00b07706/intro_gif.mp4)
+
+### Features
+
+- Responsive on Desktop/Tablet/Mobile.
+- Filtered Search.
+- Receipt generation
+- Card payment interface
+
+### Technologies
+
+- ReactJS
+- react-router
+
+    ```jsx
+    npm i react-router
+    ```
+
+- react-Semantic UI
+
+    ```jsx
+    npm i semantic-ui-react
+    ```
+
+- CSS Grid
+- react-datepicker
+
+    ```jsx
+    npm install react-datepicker
+    ```
+
+- react-credit-cards
+
+    ```jsx
+    npm install react-credit-cards
+    ```
+
+### References
+
+- [Code Evolution Youtube Videos](https://www.youtube.com/channel/UC80PWRj_ZU8Zu0HSMNVwKWw)
+- [Dev Ed's Router explaination](https://www.youtube.com/watch?v=Law7wfdg_ls&t=929s)
+- [Semantic Ui bootcamp](https://www.youtube.com/watch?v=a9mUH1EWp40)
+- [Dev Ed's CSS Grid tutorial](https://www.youtube.com/watch?v=EFafSYg-PkI)
 
 ## Available Scripts
 
