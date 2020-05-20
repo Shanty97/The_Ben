@@ -2,11 +2,10 @@
 
 > This is an almost real-but-fake conceptual Travel Booking website built in React. It tries to mimics a real Travel Booking website.
 
-[Documentation%201294a7aec13143faaeb2ffad00b07706/intro_gif.mp4](Documentation%201294a7aec13143faaeb2ffad00b07706/intro_gif.mp4)
-
 ## Features
 
 - Responsive on Desktop/Tablet/Mobile.
+![](https://github.com/Shanty97/The_Ben/blob/master/documentation/gifIntro.gif)
 - Filtered Search.
 - Receipt generation
 - Card payment interface
