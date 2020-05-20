@@ -4,14 +4,14 @@
 
 [Documentation%201294a7aec13143faaeb2ffad00b07706/intro_gif.mp4](Documentation%201294a7aec13143faaeb2ffad00b07706/intro_gif.mp4)
 
-### Features
+## Features
 
 - Responsive on Desktop/Tablet/Mobile.
 - Filtered Search.
 - Receipt generation
 - Card payment interface
 
-### Technologies
+## Technologies
 
 - ReactJS
 - react-router
@@ -38,13 +38,6 @@
     ```jsx
     npm install react-credit-cards
     ```
-
-### References
-
-- [Code Evolution Youtube Videos](https://www.youtube.com/channel/UC80PWRj_ZU8Zu0HSMNVwKWw)
-- [Dev Ed's Router explaination](https://www.youtube.com/watch?v=Law7wfdg_ls&t=929s)
-- [Semantic Ui bootcamp](https://www.youtube.com/watch?v=a9mUH1EWp40)
-- [Dev Ed's CSS Grid tutorial](https://www.youtube.com/watch?v=EFafSYg-PkI)
 
 ## Available Scripts
 
@@ -112,3 +105,11 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+## References
+
+- [Code Evolution Youtube Videos](https://www.youtube.com/channel/UC80PWRj_ZU8Zu0HSMNVwKWw)
+- [Dev Ed's Router explaination](https://www.youtube.com/watch?v=Law7wfdg_ls&t=929s)
+- [Semantic Ui bootcamp](https://www.youtube.com/watch?v=a9mUH1EWp40)
+- [Dev Ed's CSS Grid tutorial](https://www.youtube.com/watch?v=EFafSYg-PkI)
