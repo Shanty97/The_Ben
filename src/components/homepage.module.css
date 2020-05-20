@@ -1,0 +1,301 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');*/
+
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial;
+}
+
+/*----------------------Sidebar */
+
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  right: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 0px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-right .5s;
+  padding: 20px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/*----------------------*/
+
+.item1 { 
+  grid-area: header; 
+  display:grid;
+  grid-template-columns: 2fr 7.5fr 2fr;
+  grid-template-areas:
+  'header1 header2 header3';
+  grid-gap: 10px;
+}
+.header1 {
+  grid-area: header1;
+  display: flex;
+  justify-content: flex-end;
+  /*border: 1px solid red;*/
+}
+.header2 { 
+  grid-area: header2; 
+  display: flex;
+  justify-content: left;
+  /*border: 1px solid red;*/
+}
+.header3 { 
+  grid-area: header3;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+}
+.hamburger{
+
+}
+
+.item2 { grid-area: menu; }
+.item3 { 
+  grid-area: main;
+  display:grid;
+  grid-template-rows: 3fr 3fr 2fr;
+
+  grid-template-areas:
+  'main1'
+  'main2'
+  'main3';
+  grid-gap: 1px;
+}
+.Main1 { 
+  grid-area: main1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 20px;
+  padding-left: 120px;
+  /*border:1px solid black;*/
+}
+#subtitle1 {
+  margin: 0px;
+  font-size: 70px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+
+}
+#subtitle2 {
+  margin: 0px;
+  font-size: 80px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  position: relative;
+  top:-25px;
+}
+#subtitle-button{
+  font-size: 20px;
+  width: 117px;
+  height: 40px;
+  position: relative;
+  top: -20px;
+}
+.Main2 { grid-area: main2; }
+.Main3 { 
+  grid-area: main3;
+  /*border: 1px solid black;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding-top: 60px;
+}
+.Main3 p {
+  font-size: 18px;
+  
+  margin: 1px;
+}
+
+.item4 { grid-area: right; }
+.item5 { 
+  grid-area: footer;
+  display:grid;
+  grid-template-columns: 10fr 1fr 1fr;
+  grid-template-areas:
+  'footer1 footer2 footer3';
+  grid-gap: 1px;
+}
+.footer1 { 
+  grid-area: footer1;
+}
+.footer2 { 
+  grid-area: footer2;
+  /*border: 1px solid black;*/
+  display: flex;
+  align-self: center;
+  justify-content: flex-end 
+}
+.fb{
+
+
+}
+
+.footer3 { 
+  grid-area: footer3;
+  /*border:1px solid black;*/
+  display: flex;
+  align-self: center;
+  justify-content: flex-start;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-rows: 1fr 6fr 0.5fr;
+  grid-template-areas:
+  'header header header header header header'
+  'menu main main main main right'
+  'footer footer footer footer footer footer';
+  grid-gap: 1px;
+  background: url('../photos/photo.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 60%;
+  
+  height:100vh;
+  overflow: hidden; 
+}
+
+.grid-container > div {
+  /*background-color: rgba(255, 255, 255, 0.8);*/
+  text-align: center;
+  padding: 0px 0;
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 750px) {
+  body {
+    background-color: lightblue;
+  }
+    .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr 5fr 1fr 1fr;  
+    grid-template-areas:
+    'header'
+    'menu'  
+    'main'
+    'right' 
+    'footer';
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+    height:100vh;
+    overflow: hidden; 
+    }
+    
+    .item1 { 
+    grid-area: header; 
+    display:grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-areas:
+    'header1 header2 header3';
+    grid-gap: 10px;
+    }
+    
+    .item1 { 
+    grid-area: header; 
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    'header2 header3';
+    grid-gap: 10px;
+  }
+    
+    .header2 { 
+  grid-area: header2; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+  margin:0px;
+  }
+
+  .header3 { 
+  grid-area: header3;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-self: center;
+}
+
+  .Main1 { 
+  grid-area: main1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 20px;
+}
+
+  .Main3 {
+    padding: 0px 5px;
+  }
+  .Main3 p {
+  font-size: 14px; 
+  margin: 1px;
+}
+
+  .item3 { 
+  grid-area: main;
+  display:grid;
+  grid-template-rows: 2fr 2fr 2fr;
+  grid-template-areas:
+  'main1'
+  'main2'
+  'main3';
+  grid-gap: 1px;
+}
+
+  }
+
+  #logo {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+  }

@@ -1,0 +1,115 @@
+.container {
+	background: #fff;
+	color: red;
+}
+
+body {
+	background: url('../photos/photo.png') !important;	
+  	background-size: cover !important;
+  	background-repeat: no-repeat !important;
+  	background-position: 50% 60% !important;
+  	height:100vh !important;
+  	overflow: hidden !important;
+}
+
+.gridContainerBook {
+  display: grid;
+  grid-template-rows: 1fr 6fr;
+  grid-template-areas:
+  'header header header header header header'
+  'content content content content content content';
+  grid-gap: 1px;
+  background: url('../photos/photo.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 60%;
+  
+  height:100vh;
+  overflow: hidden; 
+}
+.item1 { 
+  grid-area: header; 
+  display:grid;
+  grid-template-columns: 2fr 7.5fr 2fr;
+  grid-template-areas:
+  'header1 header2 header3';
+  grid-gap: 10px;
+}
+.header1 {
+  grid-area: header1;
+  display: flex;
+  justify-content: flex-end;
+  /*border: 1px solid red;*/
+}
+.header2 { 
+  grid-area: header2; 
+  display: flex;
+  justify-content: left;
+  /*border: 1px solid red;*/
+}
+.header3 { 
+  grid-area: header3;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+}
+
+
+
+
+
+
+
+.bookContent {
+	grid-area: content;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+	scroll-behavior: smooth;
+}
+.bookGrid {
+
+}
+
+
+.newtxt {
+	color: pink;
+}
+
+.datepick {
+	height: 30px;
+	width: 100%;
+  padding: 18px 15px;
+
+  border:1px solid #e0e0e0;
+  border-radius: 5px;
+}
+
+.datepick::placeholder{
+  color: #888888 !important;
+}
+
+
+
+.gridpad {
+/*	padding: 1% !important;*/
+  padding: 18px 15px !important;
+
+}
+
+.drops::placeholder{
+  color: #888888 !important;
+}
+
+.mainCard{
+  background: #dbdbdb !important;
+}
+
+.leftmargin{
+  /*margin-left: 15px !important;*/
+}
+
+.rightmargin{
+  /*margin-right: 15px !important;*/
+}

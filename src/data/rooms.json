@@ -1,0 +1,49 @@
+[
+	{
+		"id" : 1,
+		"hotel" : "Kiwi",
+		"city" : "Pune",
+		"from" : 5000,
+		"rooms" : [
+			{
+				"id" : 11,
+				"type" : "Standard",
+				"rate" : 5500,
+			},
+			{
+				"id" : 12,
+				"type" : "Luxury",
+				"rate" : 6000,
+			},
+			{
+				"id" : 13,
+				"type" : "Private",
+				"rate" : 8000,
+			}
+		]
+	},
+	{
+		"id" : 2,
+		"hotel" : "Kentucky",
+		"city" : "Mumbai",
+		"from" : 6000,
+		"rooms" : [
+			{
+				"id" : 21,
+				"type" : "Standard",
+				"rate" : 6000,
+			},
+			{
+				"id" : 22,
+				"type" : "Luxury",
+				"rate" : 6500,
+			},
+			{
+				"id" : 23,
+				"type" : "Private",
+				"rate" : 8200,
+			}
+		]
+	},
+	
+]
